@@ -4,14 +4,14 @@
   <description asmv2:publisher="IconBuilder" asmv2:product="IconBuilder" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="IconBuilder.exe.manifest" size="4055">
+    <dependentAssembly dependencyType="install" codebase="IconBuilder.exe.manifest" size="4339">
       <assemblyIdentity name="IconBuilder.exe" version="1.0.4.7" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>4IYj8oRUVYOyy2eYzrv8Xhoj38o=</dsig:DigestValue>
+        <dsig:DigestValue>FaQt5BQ+EgCGGw6/YmX0aNh5tNI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

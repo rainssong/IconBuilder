@@ -1,6 +1,6 @@
 ﻿namespace IconBuilder
 {
-    partial class frmMain
+    partial class FrmMain
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.btnOpen = new System.Windows.Forms.Button();
             this.btnBuilder = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtPath = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.appleButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOpen
@@ -77,11 +78,22 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // appleButton
+            // 
+            this.appleButton.Location = new System.Drawing.Point(37, 84);
+            this.appleButton.Name = "appleButton";
+            this.appleButton.Size = new System.Drawing.Size(358, 27);
+            this.appleButton.TabIndex = 4;
+            this.appleButton.Text = "按Apple命名";
+            this.appleButton.UseVisualStyleBackColor = true;
+            this.appleButton.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(432, 90);
+            this.ClientSize = new System.Drawing.Size(432, 137);
+            this.Controls.Add(this.appleButton);
             this.Controls.Add(this.txtPath);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBuilder);
@@ -104,6 +116,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtPath;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button appleButton;
     }
 }
 
